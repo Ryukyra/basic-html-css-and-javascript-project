@@ -1,0 +1,63 @@
+* {
+  font-family: monospace;
+  margin-left: 10px;
+}
+
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+  color: rgb(77, 77, 77);
+}
+
+p {
+  letter-spacing: 0,5px;
+  word-spacing: 0,5px;
+  line-height: 200%;
+}
+
+thead {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+td:first-child {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+td {
+  padding: 10px;
+}
+
+#warning {
+  color: red;
+}
+
+acronym {
+  font-weight: bold;
+}
+
+button {
+  border: 0px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: lightblue;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+img {
+  border-radius: 10px;
+}
+
+#disappear {
+  display: none;
+}
